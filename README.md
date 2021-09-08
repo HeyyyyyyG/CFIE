@@ -1,7 +1,7 @@
 UNCOVERING MAIN CAUSALITIES FOR LONG-TAILED INFORMATION EXTRACTION 
 ==========
 
-This repo contains the *PyTorch* code for our proposed CFIE in EMNLP 2021 paper "Uncovering Main Causalities for Long-tailed Information Extraction".
+This repo contains the *PyTorch* implementation for our proposed CFIE in EMNLP 2021 paper "Uncovering Main Causalities for Long-tailed Information Extraction".
 
 ## Overview of CFIE
 
