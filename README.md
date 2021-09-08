@@ -1,19 +1,18 @@
 UNCOVERING MAIN CAUSALITIES FOR LONG-TAILED INFORMATION EXTRACTION 
 ==========
 
-This repo contains the *PyTorch* code for the paper "Uncovering Main Causalities for Long-tailed Information Extraction".
+This repo contains the *PyTorch* code for our proposed CFIE in EMNLP 2021 paper "Uncovering Main Causalities for Long-tailed Information Extraction".
 
 ## Requirements
 
 - Python 3 (tested on 3.6.5)
 - PyTorch (> 1.0)
 - tqdm
-- unzip, wget (for downloading only)
-
+- numpy
 
 
 ## Training
-Run prepare_vocab.py to generate embeddings. Here we use glove.840B.300d.txt \href{https://nlp.stanford.edu/projects/glove/}.
+
 To train a baseline Dep-guided LSTM model, run:
 ```python
 python train.py --id 0 --seed 0 --effect_type None --lr 0.001 --num_epoch 1000 --data_dir dataset/atis --vocab_dir dataset/atis 
@@ -60,6 +59,8 @@ This will use the `best_model.pt` file by default. Use `--model checkpoint_epoch
 ## Notice
 
 Due to copyright issues, we only include ATIS dataset here. 
+
+We provide the trained glove embeddings. Here we use glove.840B.300d.txt (https://nlp.stanford.edu/projects/glove/). You can also modify settings in prepare_vocab.py and generate different embeddings.
 
 We also release a version of pretrained model for ATIS dataset. (saved_models/02) 
 
