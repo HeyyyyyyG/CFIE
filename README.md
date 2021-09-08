@@ -14,9 +14,9 @@ Information Extraction (IE) aims to extract structural information from unstruct
 <div align =center width = 80% height = 100%>
 
 <img src="./fig/arch1.png" alt="arch1" style="zoom:30%;" />
-</div>
-<img src="./fig/arch2.png" alt="arch2" style="zoom:30%;" />
 
+<img src="./fig/arch2.png" alt="arch2" style="zoom:30%;" />
+</div>
 ### Results for NER
 
 ![ner](./fig/ner.png)
