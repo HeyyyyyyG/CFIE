@@ -11,8 +11,9 @@ Information Extraction (IE) aims to extract structural information from unstruct
 
 ### Framework
 
-<div align =center width = 80% height = 100%>![arch1](./fig/arch1.png)
-
+<div align =center width = 80% height = 100%>
+![arch1](./fig/arch1.png)
+</div>
 <img src="./fig/arch2.png" alt="arch2" style="zoom:30%;" />
 
 ### Results for NER
