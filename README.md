@@ -13,6 +13,7 @@ This repo contains the *PyTorch* code for the paper "Uncovering Main Causalities
 
 
 ## Training
+Run prepare_vocab.py to generate embeddings. Here we use glove.840B.300d.txt \href{https://nlp.stanford.edu/projects/glove/}.
 To train a baseline Dep-guided LSTM model, run:
 ```python
 python train.py --id 0 --seed 0 --effect_type None --lr 0.001 --num_epoch 1000 --data_dir dataset/atis --vocab_dir dataset/atis 
