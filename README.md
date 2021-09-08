@@ -11,21 +11,21 @@ Information Extraction (IE) aims to extract structural information from unstruct
 
 ### Framework
 
-![1631126424957](C:\Users\User\AppData\Roaming\Typora\typora-user-images\1631126424957.png)
+![arch1](./fig/arch1.png)
 
-![1631126471472](C:\Users\User\AppData\Roaming\Typora\typora-user-images\1631126471472.png)
+![arch2](./fig/arch2.png)
 
 ### Results for NER
 
-![1631126566735](C:\Users\User\AppData\Roaming\Typora\typora-user-images\1631126566735.png)
+![ner](./fig/ner.png)
 
 ### Results for event detection
 
-![1631126537132](C:\Users\User\AppData\Roaming\Typora\typora-user-images\1631126537132.png)
+![ed](./fig/ed.png)
 
 ### Case study
 
-![1631126631326](C:\Users\User\AppData\Roaming\Typora\typora-user-images\1631126631326.png)
+![case](./fig/case.png)
 
 ## Requirements
 
