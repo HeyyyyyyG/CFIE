@@ -41,13 +41,12 @@ To train a baseline Dep-guided LSTM model, run:
 ```python
 python train.py --id 0 --seed 0 --effect_type None --lr 0.001 --num_epoch 1000 --data_dir dataset/atis --vocab_dir dataset/atis 
 ```
+Model checkpoints and logs will be saved to `./saved_models/00`.
 
 To train CAUSAL model with based on a predefined casual graph, run:
 ```python
 python train.py --id 1 --seed 0 --effect_type CAUSAL --lr 0.001 --num_epoch 1000 --data_dir dataset/atis --vocab_dir dataset/atis 
 ```
-
-Model checkpoints and logs will be saved to `./saved_models/00`.
 
 Model checkpoints and logs will be saved to `./saved_models/01`.
 
