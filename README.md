@@ -96,3 +96,16 @@ You can run the following command to reproduce similar results.
 python eval.py --model_dir saved_models/02 --data_dir dataset/atis --dataset test --effect_type CAUSAL --alpha 1.2
 ```
 
+
+
+## Citation
+
+```
+@inproceedings{nan2021cfie,
+ author = {Guoshun, Nan and Jiaqi, Zeng and Rui, Qiao and Zhijiang, Guo and Wei, Lu},
+ booktitle = {Proc. of EMNLP},
+ title = {Uncovering Main Causalities for Long-tailed Information Extraction},
+ year = {2021}
+}
+```
+
