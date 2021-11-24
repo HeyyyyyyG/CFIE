@@ -101,11 +101,12 @@ python eval.py --model_dir saved_models/02 --data_dir dataset/atis --dataset tes
 ## Citation
 
 ```
-@inproceedings{nan2021cfie,
- author = {Guoshun, Nan and Jiaqi, Zeng and Rui, Qiao and Zhijiang, Guo and Wei, Lu},
- booktitle = {Proc. of EMNLP},
- title = {Uncovering Main Causalities for Long-tailed Information Extraction},
- year = {2021}
+@inproceedings{nan2021uncovering,
+  title={Uncovering Main Causalities for Long-tailed Information Extraction},
+  author={Nan, Guoshun and Zeng, Jiaqi and Qiao, Rui and Guo, Zhijiang and Lu, Wei},
+  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},
+  pages={9683--9695},
+  year={2021}
 }
 ```
 
