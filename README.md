@@ -118,10 +118,6 @@ Use "--loss" to choose loss functions from FocalLoss, LiftedLoss and DiceLoss (d
 python train.py ... --loss focal
 ```
 
-## Related Repo
-
-The paper also includes comparisons to the position-aware attention LSTM (PA-LSTM) model for relation extraction. To reproduce the corresponding results, please refer to [this repo](https://github.com/yuhaozhang/tacred-relation).
-
 ## Citation
 
 ```
