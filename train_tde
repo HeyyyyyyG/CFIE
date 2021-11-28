@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 /usr/bin/python3.6 train.py --id 12 --effect_type TDE --fuse_type GATED --seed 100 --prune_k -1 --lr 0.3 --num_epoch 150 --pooling max --mlp_layers 2 --pooling_l2 0.003
